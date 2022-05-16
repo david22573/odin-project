@@ -4,12 +4,6 @@
     box-sizing: border-box;
   }
 
-#main {
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-}
-
 header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -29,9 +23,10 @@ footer {
     justify-content: center;
 }
 
-.container {
+#main {
+    height: 120vh;
     display: flex;
-    margin: 0 10%;
+    flex-direction: column;
 }
 
 #header {
@@ -42,13 +37,14 @@ footer {
 
 #header-bar {
     display: flex;
-    align-content: space-between;
+    justify-items: center;
 }
 
 #quote {
     background-color: #E5E7EB;
 }
 
-#signup {
-    margin: auto;
+.container {
+    display: flex;
+    margin: 0 10%;
 }
