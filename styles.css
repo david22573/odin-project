@@ -10,6 +10,14 @@ header {
     flex: 1.2 1 auto;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
 section {
     flex: 1 1 auto;
 }
@@ -25,19 +33,18 @@ footer {
 
 #main {
     height: 120vh;
-    display: flex;
     flex-direction: column;
 }
 
-#header {
-    display: flex;
+#header-bar {
+    margin: auto 15%;
     margin-top: 2.5vh;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-#header-bar {
-    display: flex;
-    justify-items: center;
+#header-links {
+    position: relative;
+    left: 40vh;
 }
 
 #quote {
@@ -46,5 +53,8 @@ footer {
 
 .container {
     display: flex;
-    margin: 0 10%;
+}
+
+.header-link {
+    margin: 0 3vh
 }
